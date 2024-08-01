@@ -170,6 +170,7 @@
     align-items: center;
     gap: 16px;
     padding: 0 44px 34px 44px;
+    
 }
 
 .torta{
@@ -178,7 +179,7 @@
     flex-direction: column;
     background-color: $white-normal;
     border-radius: 8px;
-    box-shadow: 8px -1px 17px -4px rgba(0,0,0, 0.45);
+    box-shadow: 0 -1px 17px -4px rgba(0,0,0, 0.45);
 
     overflow: hidden;
 
@@ -198,18 +199,15 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 14px ;
+    padding: 14px;
     background-color: $white-normal;
     z-index: 99;
 }
 
 .torta-info button{
     color: $white-normal;
-    background-color: $orange-normal;
-    padding: 4px 2px;
-    border-radius: 4px;
-    border: 0;
-    cursor: default;
+    background-color: $red-normal;
+  
 }
 
 @media screen and (max-width: 768px){

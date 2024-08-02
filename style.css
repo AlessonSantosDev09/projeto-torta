@@ -124,12 +124,12 @@ i {
 }
 
 .button-contact {
-  padding: 14px 28px;
+  padding: 14px 26px;
   color: #fff;
   background-color: #d94140;
   border: 0;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 14px 0;
 }
 
@@ -152,6 +152,7 @@ i {
   .hero h1 {
     font-size: 34px;
     padding: 0 14px;
+    width: 100%;
   }
   .hero p {
     font-size: 14px;
@@ -159,7 +160,7 @@ i {
 }
 @media screen and (max-width: 480px) {
   .hero h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 .about {
@@ -260,6 +261,11 @@ i {
 
 .torta-info button {
   color: #fff;
+  background-color: #d94140;
+  padding: 8px 4px;
+  border-radius: 4px;
+  border: 0;
+  cursor: default;
 }
 
 @media screen and (max-width: 768px) {
@@ -267,7 +273,7 @@ i {
     flex-direction: column;
   }
   .torta img {
-    max-width: 748px;
+    max-width: 640px;
   }
 }
 .footer {
